@@ -8,6 +8,7 @@ import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 
 
+
 function App() {
   return (
     
@@ -19,6 +20,7 @@ function App() {
       <Route path='/services'  element Component={Services}/>
       <Route path='/products'  element Component={Products}/>
       <Route path='/sign-up'  element Component={SignUp}/>
+      
     </Routes>
     </Router>
      
